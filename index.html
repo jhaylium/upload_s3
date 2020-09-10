@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>File(s) size</title>
+</head>
+
+<body>
+  <!-- <form name="uploadForm"> -->
+    <div>
+      <input id="uploadInput" type="file" name="myFiles" multiple>
+      <!-- selected files: <span id="fileNum">0</span>; -->
+      <!-- total size: <span id="fileSize">0</span> -->
+    </div>
+    <div><button onclick="getFile()">Send File</button></div>
+  <!-- </form> -->
+ 
+  <script src="aws-sdk-min.js"></script>
+  <script src="s3_upload.js"></script>
+</body>
+</html>
